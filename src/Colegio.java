@@ -7,7 +7,6 @@ public class Colegio {
     public Colegio(String name) {
         this.name = name;
         this.niveles = new Vector<Nivel>();
-        this.niveles.add(new Nivel("preprimaria"));
     }
     public void addNivel(Nivel Nivel){
         niveles.add(Nivel);
